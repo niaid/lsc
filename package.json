@@ -1,20 +1,20 @@
 {
-  "name": "@labshare/lsc",
+  "name": "@niaid/lsc",
   "namespace": "lsc",
   "main": "./dist/index.js",
   "version": "2.16.0",
   "description": "Lab Share Command",
-  "contributors": "https://github.com/LabShare/lsc/graphs/contributors",
+  "contributors": "https://github.com/niaid/lsc/graphs/contributors",
   "lsc": {
     "cliPattern": "dist/cli/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LabShare/lsc.git"
+    "url": "https://github.com/niaid/lsc.git"
   },
   "preferGlobal": true,
   "bugs": {
-    "url": "https://github.com/LabShare/lsc/issues"
+    "url": "https://github.com/niaid/lsc/issues"
   },
   "engines": {
     "npm": ">=3.7.0",
@@ -84,7 +84,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^7.0.1",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "@labshare/semantic-release-config": "^1.0.0",
+    "@niaid/semantic-release-config": "^1.0.0",
     "@types/gulp": "^4.0.6",
     "@types/gulp-rename": "0.0.33",
     "@types/gulp-template": "^5.0.1",
@@ -113,7 +113,7 @@
   },
   "snyk": true,
   "release": {
-    "extends": "@labshare/semantic-release-config"
+    "extends": "@niaid/semantic-release-config"
   },
   "husky": {
     "hooks": {
